@@ -17,7 +17,11 @@
     background-color: black;
     background: rgba(0, 0, 0, 0.3);
 }
-.image .overlay .sectiontwo .textone h1{
-    font-size: 150px;
+.image .overlay .sectiontwo .textone .para1{
+    font-size: 80px;
     color: azure;
+    text-align: center;
+}
+.image .overlay .sectiontwo .imagetwo{
+    text-align: center;
 }
