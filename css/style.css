@@ -1,38 +1,38 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.image{
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../picture/Africa.png);
-    background-size: cover;
-    position: relative;
-
+.image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../picture/Africa.png);
+  background-size: cover;
+  position: relative;
 }
- .image .overlay{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background-color: black;
-    background: rgba(0, 0, 0, 0.3);
+.image .overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.3);
 }
-.image .overlay .sectiontwo .textone .para1{
-    font-size: 80px;
+.image .overlay .sectiontwo .textone .para1 {
+  font-size: 80px;
+  color: azure;
+  text-align: center;
+}
+.image .overlay .sectiontwo .imagetwo {
+  text-align: center;
+}
+.image .overlay .sectiontwo .textone p {
+  text-align: center;
+  color: azure;
+  font-size: 30px;
+}
+.image .overlay .sectiontwo .textone .burn {
+  margin-left: 700px;
+}
+.image .overlay .sectiontwo .textone .burn a{
+    text-decoration: none;
     color: azure;
-    text-align: center;
-}
-.image .overlay .sectiontwo .imagetwo{
-    text-align: center;
-}
-.image .overlay .sectiontwo .textone p{
-    text-align: center;
-    color: azure;
-    font-size: 30px;
-}
-.image .overlay .sectiontwo .textone .burn{
-
-    text-align: center;
-    color: azure;
-
 }
