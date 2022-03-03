@@ -30,9 +30,21 @@
   font-size: 30px;
 }
 .image .overlay .sectiontwo .textone .burn {
-  margin-left: 700px;
+  margin-left: 780px;
 }
 .image .overlay .sectiontwo .textone .burn a{
     text-decoration: none;
     color: azure;
+}
+.three{
+    height:100vh ;
+    width:100vw ;
+}
+.three .pageone {
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+}
+.three .pageone h1{
+    font-size: 40px;
 }
