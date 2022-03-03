@@ -25,3 +25,14 @@
 .image .overlay .sectiontwo .imagetwo{
     text-align: center;
 }
+.image .overlay .sectiontwo .textone p{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+}
+.image .overlay .sectiontwo .textone .burn{
+
+    text-align: center;
+    color: azure;
+
+}
