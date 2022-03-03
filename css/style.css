@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../picture/Africa.png);
+    background-size: cover;
+
+}
