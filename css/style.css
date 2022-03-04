@@ -48,3 +48,9 @@
 .three .pageone h1{
     font-size: 40px;
 }
+.three .content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
