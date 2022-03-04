@@ -39,6 +39,8 @@
 .three{
     height:100vh ;
     width:100vw ;
+    background-color: orange;
+  
 }
 .three .pageone {
     margin-top: 15px;
@@ -57,4 +59,10 @@
 .three .content .picone{
   height: 100px;
   width: 100px;
+}
+.three .para2 p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
 }
