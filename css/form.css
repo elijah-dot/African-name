@@ -16,8 +16,44 @@
   background-color: black;
   background: rgba(0, 0, 0, 0.3);
 }
-.image .overlay .container{
-     text-align: center;
-     background-color: aliceblue;
+.image .overlay .container {
+  background-color: aliceblue;
+  height: 500px;
+  width: 400px;
+}
+.image .overlay .container h1{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+} 
+.image .overlay .container .form1{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container .form2{
 
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container .form3{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container .form4{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container .form5{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container .form6{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
 }
