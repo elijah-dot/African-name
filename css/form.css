@@ -26,16 +26,50 @@
     font-size: 30px;
     text-align: center;
 } 
-.image .overlay .container .form1{
-  font-size: 20px;
+.image .overlay .container form .day{
+  font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
-.image .overlay .container #name{
+.image .overlay .container #day{
   margin: 10px;
   padding: 7px;
   border-radius: 6px;
 }
+ 
+.image .overlay .container form .month{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container #month{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+}
+ 
+.image .overlay .container form .year{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+.image .overlay .container #year{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+}
+ 
+.image .overlay .container form .gender{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+}
+
+.image .overlay .container #name{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+/* }
 .image .overlay .container #name_error{
   color: red;
   background-color: pink;
@@ -122,4 +156,4 @@
   border-radius: 6px;
   border: solid 1px black;
   background-color: white;
-}
+} */
