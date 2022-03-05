@@ -51,21 +51,19 @@
         </nav>
         <div class="container">
            <h1>User Login</h1> 
-           <form action="" name="form" method="post" onsubmit="">
+           <form action="" name="form" method="post" onsubmit ="mine()">
                <div class="form1">Name</div>
                <input id="name" type="text" autocomplete="off" name="name">
                <div id="name_error">please fill your name!</div>
-               <div class="form2">Male</div>
-               <input id="male" type="checkbox" name="Male" autocomplete="off">
-               <div class="form3">Female</div>
-               <input id="female" type="checkbox" name="Female" autocomplete="off">
+               <div class="form2">Gender</div>
+               <input id="gender" type="text" name="gender" autocomplete="off">
                <div id="gender_error">please fill your gender!</div>
                <div class="form4">date of birth</div>
                <input id="birth" type="date" name="date" autocomplete="off" >
                <div id="date_error">please fill your date of birth!</div>
                <div class="form5">day of the week</div>
                <input id="week" type="text" name="week" autocomplete="off">
-               <button id="submit" type="submit">submit</button>
+               <button id="submit" type="">submit</button>
                <div class="form6">result is:</div>
                <div id="result"></div>
             </form>

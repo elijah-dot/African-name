@@ -53,10 +53,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
-.image .overlay .container .form3{
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orange;
+.image .overlay .container #gender{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
 }
 
 .image .overlay .container #gender_error{
