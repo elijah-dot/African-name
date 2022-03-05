@@ -1,8 +1,11 @@
+//arrays
+let maleNames = ["Kwasi", "Kwadwo","Kwabena", " Kwaku", "Yaw", "Kofi","Kwame"];
+let femaleNames = ["Akosua", "Adwoa", " Abenaa", "Akua", "Yaa", "Afua","Ama"];
 //validation for all inputs
-let inputToday = document.form["form"]["name"];
-let inputGender = document.form["form"]["gender"];
-let inputDate = document.form["form"]["date"];
-let week = document.form["form"]["week"];
+let inputToday = document.forms["form"]["name"];
+let inputGender = document.forms["form"]["gender"];
+let inputDate = document.forms["form"]["date"];
+let week = document.forms["form"]["week"];
 //validation for all errors
 let today_error = document.getElementById("name_error");
 let gender_error = document.getElementById("gender_error");
