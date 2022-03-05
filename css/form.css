@@ -18,7 +18,7 @@
 }
 .image .overlay .container {
   background-color: aliceblue;
-  height: 500px;
+  height: 600px;
   width: 400px;
 }
 .image .overlay .container h1{
@@ -30,6 +30,11 @@
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
+}
+.image .overlay .container #name{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
 }
 .image .overlay .container .form2{
 
@@ -47,13 +52,30 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
+.image .overlay .container #birth{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+}
 .image .overlay .container .form5{
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
+.image .overlay .container #week{
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+}
 .image .overlay .container .form6{
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
+}
+.image .overlay .container #result{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+  border: solid 1px black;
+  background-color: white;
 }
