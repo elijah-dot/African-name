@@ -36,6 +36,17 @@
   padding: 7px;
   border-radius: 6px;
 }
+
+.image .overlay .container #one_error{
+  color: red;
+  background-color: pink;
+  width: 270px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+  display: none;
+
+}
  
 .image .overlay .container form .month{
   font-size: 30px;
@@ -46,6 +57,16 @@
   margin: 10px;
   padding: 7px;
   border-radius: 6px;
+}
+.image .overlay .container #two_error{
+  color: red;
+  background-color: pink;
+  width: 270px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+  display: none;
+
 }
  
 .image .overlay .container form .year{
@@ -64,96 +85,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
-
-.image .overlay .container #name{
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-/* }
-.image .overlay .container #name_error{
-  color: red;
-  background-color: pink;
-  width: 270px;
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-  display: none;
-
-}
-
-.image .overlay .container .form2{
-
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orange;
-}
-.image .overlay .container #gender{
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-}
-
-.image .overlay .container #gender_error{
-  color: red;
-  background-color: pink;
-  width: 270px;
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-  display: none;
-
-}
-
-.image .overlay .container .form4{
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orange;
-}
-
-.image .overlay .container #date_error{
-  color: red;
-  background-color: pink;
-  width: 270px;
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-  display: none;
-
-}
-
-.image .overlay .container #birth{
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-}
-.image .overlay .container .form5{
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orange;
-}
-.image .overlay .container #week{
-  margin: 10px;
-  padding: 7px;
-  border-radius: 6px;
-}
-.image .overlay .container .form6{
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orange;
-}
-.image .overlay .container #submit{
+.image .overlay .container .five{
   padding: 5px;
   border-radius: 5px;
   background-color: orange;
   color: white;
 }
-.image .overlay .container #submit:hover{
+.image .overlay .container .five:hover{
    background-color: greenyellow;
 }
-.image .overlay .container #result{
-  margin: 10px;
-  padding: 20px;
-  border-radius: 6px;
-  border: solid 1px black;
-  background-color: white;
-} */

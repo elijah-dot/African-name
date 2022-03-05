@@ -57,13 +57,17 @@
           <h1>User Login</h1>
           <form>
             <div class="day">day:&nbsp;&nbsp;</div><input type="number" id="day" /><br /><br />
+            <div id="one_error">please enter date properly!</div>
             <div class="month">month:&nbsp;&nbsp;</div> <input type="number" id="month" /><br /><br />
+            <div id="two_error">please enter month properly!</div>
             <div class="year">year:&nbsp;&nbsp;</div><input type="number" id="year" /><br /><br />
+            
             <div class="gender">gender:&nbsp;&nbsp;</div><select id="gender">
               <option value="male">male</option>
               <option value="female">female</option></select
             ><br /><br />
-            <input type="button" onclick="getDay()" value="submit" />
+          
+            <input  class="five" type="button" onclick="getDay()" value="submit" />
             <h2 id="display"></h2>
           </form>
         </div>
