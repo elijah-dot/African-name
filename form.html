@@ -39,44 +39,46 @@
             <div class="collapse navbar-collapse" id="mine">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link " href="index.html">home</a>
+                  <a class="nav-link" href="index.html">home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active " href="form.html">find what your Ghanian name is</a>
+                  <a class="nav-link active" href="form.html"
+                    >find what your Ghanian name is</a
+                  >
                 </li>
-                <li class="nav-item"><a class="nav-link" href=""> why is it important?</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""> why is it important?</a>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
         <div class="container">
-           <h1>User Login</h1> 
-           <form id="form" action="" name="form" method="post" onsubmit ="">
-               <div class="form1">Name</div>
-               <input id="name" type="text" autocomplete="off" name="name">
-               <div id="name_error">please fill your name!</div>
-               <div class="form2">Gender</div>
-               <input id="gender" type="text" name="gender" autocomplete="off">
-               <div id="gender_error">please fill your gender!</div>
-               <div class="form4">date of birth</div>
-               <input id="birth" type="date" name="date" autocomplete="off" >
-               <div id="date_error">please fill your date of birth!</div>
-               <div class="form5">day of the week</div>
-               <input id="week" type="text" name="week" autocomplete="off">
-               <button id="submit" type="">submit</button>
-               <div class="form6">result is:</div>
-               <div id="result"></div>
-            </form>
+          <h1>User Login</h1>
+          <form  method="post" name="form" onsubmit="return validated()">
+            <div class="form1">Name</div>
+            <input id="name" type="text" autocomplete="off" name="name" />
+            <div id="name_error">please fill your name!</div>
+            <div class="form2">Gender</div>
+            <input id="gender" type="text" name="gender" autocomplete="off" />
+            <div id="gender_error">please fill your gender!</div>
+            <div class="form4">date of birth</div>
+            <input id="birth" type="date" name="date" autocomplete="off" />
+            <div id="date_error">please fill your date of birth!</div>
+            <div class="form5">day of the week</div>
+            <input id="week" type="text" name="week" autocomplete="off" />
+            <button id="submit" type="submit">submit</button>
+            <div class="form6">result is:</div>
+            <div id="result"></div>
+          </form>
         </div>
       </div>
     </div>
-
+    <script src="main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
-    <script src="main.js"></script>
   </body>
 </html>
