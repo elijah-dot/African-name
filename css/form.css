@@ -18,7 +18,7 @@
 }
 .image .overlay .container {
   background-color: aliceblue;
-  height: 600px;
+  height: 690px;
   width: 400px;
 }
 .image .overlay .container h1{
@@ -36,6 +36,17 @@
   padding: 7px;
   border-radius: 6px;
 }
+.image .overlay .container #name_error{
+  color: red;
+  background-color: pink;
+  width: 270px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+  display: none;
+
+}
+
 .image .overlay .container .form2{
 
   font-size: 20px;
@@ -47,11 +58,35 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
+
+.image .overlay .container #gender_error{
+  color: red;
+  background-color: pink;
+  width: 270px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+  display: none;
+
+}
+
 .image .overlay .container .form4{
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: orange;
 }
+
+.image .overlay .container #date_error{
+  color: red;
+  background-color: pink;
+  width: 270px;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 6px;
+  display: none;
+
+}
+
 .image .overlay .container #birth{
   margin: 10px;
   padding: 7px;
