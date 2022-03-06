@@ -3,14 +3,14 @@
   margin: 0;
 }
 .image {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   background-image: url(../picture/Africa.png);
   background-size: cover;
   position: relative;
 }
 .image .overlay {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   position: absolute;
   background-color: black;
@@ -18,8 +18,9 @@
 }
 .image .overlay .container {
   background-color: aliceblue;
-  height: 690px;
+  height: 670px;
   width: 400px;
+  margin-top: 20px;
 }
 .image .overlay .container h1{
     color: orange;

@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body{
+  overflow-x: hidden;
+}
 .image {
   height: 100vh;
   width: 100vw;
@@ -37,7 +40,7 @@
     color: azure;
 }
 .three{
-    height:100vh ;
+    height:120vh ;
     width:100vw ;
     background-color: orange;
   
@@ -68,3 +71,23 @@
   font-weight: bold;
 
 }
+.three .fury{
+  margin-left: 700px;
+}
+.three .fury .akan{
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(224, 218, 218);
+}
+.footer .subscribe .content{
+  display: flex;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+

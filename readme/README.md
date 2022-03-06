@@ -30,6 +30,8 @@
 <li>An access to the internet</li>
 <ul>
 
+
+
 ### Installation process
 [Go back to the top](#akan-names)
 
@@ -43,6 +45,8 @@
 
 </ul>
 
+
+
 ## Behaviour Drriven Development
 <ol>
 <li>displays a landingpage with a quick description of the website </li>
@@ -55,6 +59,8 @@
 </ul> </li>
 </ol>
 
+
+
 ## Development
 <p>Want to contribute ?</p><br>
 <ul>
@@ -66,8 +72,10 @@
   <li>create a pull request</li>
 </ul>
 
+
 ## licence
 copyright (c) [2019] []
+
 
 ## authors info
 linked - [Elijah Mwangi Wangu]
