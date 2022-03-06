@@ -74,7 +74,7 @@
 
 
 ## licence
-copyright (c) [2019] []
+copyright (c) [2019] [https://github.com/elijah-dot/African-name/blob/master/LICENSE]
 
 
 ## authors info
